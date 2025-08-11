@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     
       
@@ -43,7 +45,7 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Awesome tools for Designer & Developer.</h1>
+        <h1 class="hero-title">Awesome tools for Designer & Developer<span class="hero-dot">.</span></h1>
         <p class="hero-description">
           Antool is a web collection of information on paid or free Design and
           Development tools
@@ -145,35 +147,35 @@
             <a class="tools-link" href="">Visit</a>
           </li>
         </ul>
-        <butto class="tools-btn" type="button">Load more</butto>
+        <button class="tools-btn" type="button">Load more</button>
       </section>
-      <section>
-        <h2>Trusted more than 150+ brand</h2>
-        <ul>
-          <li><img src="./img/microsoft.png" alt="microsoft" /></li>
-          <li><img src="./img/google.png" alt="google" /></li>
-          <li><img src="./img/slacklogo.png" alt="slacklogo" /></li>
-          <li><img src="./img/wordpress.png" alt="wordpress" /></li>
+      <section class="trusted">
+        <h2 class="trusted-title">Trusted more than 150+ brand</h2>
+        <ul class="trusted-list">
+          <li class="trusted-item"><img class="trusted-img" src="./img/microsoft.png" alt="microsoft" /></li>
+          <li class="trusted-item"><img class="trusted-img" src="./img/google.png" alt="google" /></li>
+          <li class="trusted-item"><img class="trusted-img" src="./img/slacklogo.png" alt="slacklogo" /></li>
+          <li class="trusted-item"><img class="trusted-img" src="./img/wordpress.png" alt="wordpress" /></li>
         </ul>
       </section>
-      <section>
-        <h2>Newcomer Tools</h2>
-        <p>
+      <section class="newcomer">
+        <h2 class="newcomer-title">Newcomer Tools</h2>
+        <p class="newcomer-text">
           Wow! see the latest update of the most recommended tools from reliable
           designers and developers
         </p>
-        <button type="button">Explore more</button>
-        <ul>
-          <li>
-            <img src="./img/zeplin.png" alt="zeplin" />
-            <h3>Zeplin</h3>
-            <p>Free & Paid</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <ul>
-              <li><img src="./img/heart.png" alt="heart" /></li>
-              <li><img src="./img/folder.png" alt="folder" /></li>
+        <button class="newcomer-btn" type="button">Explore more</button>
+        <ul class="newcomer-list">
+          <li class="newcomer-item">
+            <img class="newcomer-img" src="./img/zeplin.png" alt="zeplin" />
+            <h3 class="newcomer-subtitle">Zeplin</h3>
+            <p class="newcomer-desc">Free & Paid</p>
+            <p class="newcomer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul class="newcomer-items">
+              <li class="newcomer-elem"><img class="newcomer-pic" src="./img/heart.png" alt="heart" /></li>
+              <li class="newcomer-elem"><img class="newcomer-pic" src="./img/folder.png" alt="folder" /></li>
             </ul>
-            <a href="">Visit</a>
+            <a class="newcomer-link" href="">Visit</a>
           </li>
           <li>
             <img src="./img/phpstorm.png" alt="phpstorm" />
